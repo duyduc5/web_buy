@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@700&family=Open+Sans:ital,wght@1,300&family=Roboto+Slab&family=Roboto:ital,wght@0,900;1,700;1,900&family=Sonsie+One&display=swap');
+
+html {
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Sonsie One', cursive;
+    font-size: 90%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: -1.5rem;
+}
+
+.font_image {
+    margin-left: 5%;
+}
+
+.fix_img {
+    width: 80%;
+}
+
+.li {
+    list-style: none;
+    display: flex;
+    color: yellow;
+}
+
+.li_2 {
+    color: silver;
+    display: flex;
+}
+
+.price {
+    margin-left: 1rem;
+}
+
+.font {
+    display: flex;
+    align-items: center;
+    margin-top: -4%;
+}
+
+.box_2 {
+    opacity: 0.5;
+    margin-left: 1rem;
+}
+
+.price_2 {
+    display: flex;
+    align-items: center;
+    margin-top: -3%;
+}
+
+.p {
+    opacity: 0.5;
+    font-size: 0.9rem;
+    margin-top: -3%;
+}
+
+.content {
+    margin-top: -1.5%;
+    margin-left: -6%;
+}
+
+.box {
+    background-color: white;
+    width: 150%;
+    height: 2rem;
+    border: silver solid 1px;
+    display: flex;
+    align-items: center;
+    border-radius: 0.3rem;
+}
+
+.box_n {
+    background-color: white;
+    width: 150%;
+    height: 2rem;
+    border: silver solid 1px;
+    display: flex;
+    align-items: center;
+    border-radius: 0.3rem;
+}
+
+/* .size{
+    width: 12rem;
+}
+.size_2{
+    width: 12rem;
+    margin-left: 8rem;
+} */
+/* .flex{
+    display: flex;
+    margin-top: -3%;
+} */
+.dropbtn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: silver solid 2px;
+    padding-left: 1rem ;
+    width: 18rem;
+    height: 1.5rem;
+    border-radius: 3px;
+    margin-top: -1rem;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: silver;
+}
+
+.image_1 {
+    display: flex;
+    width: 80%;
+    height: 100px;
+    margin-top: 5%;
+}
+
+.image_1 div {
+    width: 100%;
+    height: 100%;
+}
+
+.image_1 div img {
+    width: 100%;
+    height: 100%;
+}
+
+.i_1 {
+    background-color: black;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 3px;
+}
+
+.i_2 {
+    width: 4rem;
+    height: 1.759rem;
+    border: silver solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.i_3 {
+    background-color: black;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 3px;
+}
+
+.about {
+    display: flex;
+}
+
+.button {
+    width: 27%;
+    height: 2.5rem;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+}
+
+.container {
+    display: flex;
+    margin-left: 10rem;
+    margin-top: 0.5rem;
+}
+
+.prduct_1 {
+    margin-left: 2%;
+    opacity: 0.7;
+}
+
+.introduct {
+    display: flex;
+    margin-left: 14%;
+    margin-top: 1%;
+}
+
+.hr {
+    width: 82%;
+    margin-left: 14%;
+}
+
+.view {
+    margin-left: 16%;
+    margin-top: 2%;
+}
+
+.view p {
+    opacity: 0.5;
+}
+
+.p1 {
+    color: palevioletred;
+    margin-left: 0.6rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
